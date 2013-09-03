@@ -6,8 +6,18 @@ html
     = javascript_include_tag :application
     = csrf_meta_tag
 
-  body
-    nav( class="navbar navbar-static-top" role="navigation"  style="background-color: green;" )
+  body.metrouicss
+    .page
+      .nav-bar
+        .nav-bar-inner.padding10
+          span.pull-menu
+          a[href="/" ]
+            span.element.brand FreiMemo
+          .divider
+          ul.menu[style="overflow: visible;" ]
+            li
+              a[href="#" ] NewPost
+
     .container
       .row
         .col-md-10

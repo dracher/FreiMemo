@@ -10,8 +10,22 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
+//= require jquery-1.10.2.min
 
-//= require bootstrap.min
+//= require metro_ui/accordion.js
+//= require metro_ui/buttonset.js
+//= require metro_ui/calendar.js
+//= require metro_ui/carousel.js
+//= require metro_ui/contextmenu.js
+//= require metro_ui/dialog.js
+//= require metro_ui/dropdown.js
+//= require metro_ui/input-control.js
+//= require metro_ui/pagecontrol.js
+//= require metro_ui/pagelist.js
+//= require metro_ui/rating.js
+//= require metro_ui/slider.js
+//= require metro_ui/start-menu.js
+//= require metro_ui/tile-drag.js
+//= require metro_ui/tile-slider.js
+
 //= require_tree .
